@@ -98,8 +98,12 @@ export default function Home() {
                 <p className='text-center'>Lebih cepat, bisa donasi mulai Rp1.000 dan tidak memakan banyak memori ponsel</p>
               </div>
               <div className='my-4 md:flex-row flex-col justify-between items-center gap-3'>
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='md:w-full h-10 w-full md:h-16' />
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='md:w-full h-10 w-full md:h-16' />
+                <a href='#'>
+                  <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='md:w-full h-10 w-full md:h-16' />
+                </a>
+                <a href='#'>
+                  <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='md:w-full h-10 w-full md:h-16' />
+                </a>
               </div>
             </div>
 
@@ -140,7 +144,7 @@ export default function Home() {
             <div className='my-5'>
               <p className='text-gray-500 text-center'>Copyright © 2023 BantuDonasi. All Right Reserved</p>
             </div>
-            
+
             <div className='bg-white h-10'>
 
             </div>
