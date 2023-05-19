@@ -18,7 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
+      <div className='md:w-[30vw] w-full ml-auto mr-auto'>
         <Header />
         <div className='bg-gray-50 h-full w-full' >
           <div className='bg-white w-full' style={{ height: '100vh' }}>
@@ -98,8 +98,8 @@ export default function Home() {
                 <p className='text-center'>Lebih cepat, bisa donasi mulai Rp1.000 dan tidak memakan banyak memori ponsel</p>
               </div>
               <div className='my-4 md:flex-row flex-col justify-between items-center gap-3'>
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='md:w-full h-10 w-1/2 md:h-16' />
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='md:w-full h-10 w-1/2 md:h-16' />
+                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='md:w-full h-10 w-full md:h-16' />
+                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='md:w-full h-10 w-full md:h-16' />
               </div>
             </div>
 
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
 
             {/* Sosial Media */}
-            <div className='my-5 flex md:px-10 items-center justify-between gap-1'>
+            <div className='my-5 flex md:px-10 items-center md:justify-between justify-evenly gap-1'>
               <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490635/icon-socmed-fb_b0cjri.svg' />
               </a>
