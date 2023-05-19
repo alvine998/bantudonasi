@@ -97,41 +97,41 @@ export default function Home() {
               <div>
                 <p className='text-center'>Lebih cepat, bisa donasi mulai Rp1.000 dan tidak memakan banyak memori ponsel</p>
               </div>
-              <div className='my-4 flex justify-between items-center gap-3'>
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='w-full h-16' />
-                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='w-full h-16' />
+              <div className='my-4 md:flex-row flex-col justify-between items-center gap-3'>
+                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-google-play_ikglu2.png' className='md:w-full h-10 w-1/2 md:h-16' />
+                <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490084/btn-app-store_i8mik6.png' className='md:w-full h-10 w-1/2 md:h-16' />
               </div>
             </div>
 
             <div className='flex items-center justify-center'>
-              <a href='#' className='text-gray-400 hover:text-gray-500 transition duration-300'>Tentang BantuDonasi</a>
-              <p className='mx-2'>|</p>
-              <a href='#' className='text-gray-400 hover:text-gray-500 transition duration-300'>Syarat & Ketentuan</a>
-              <p className='mx-2'>|</p>
-              <a href='#' className='text-gray-400 hover:text-gray-500 transition duration-300'>Pusat Bantuan</a>
+              <a href='#' className='text-gray-400 text-center hover:text-gray-500 transition duration-300'>Tentang BantuDonasi</a>
+              <p className='mx-2 md:block'>|</p>
+              <a href='#' className='text-gray-400 text-center hover:text-gray-500 transition duration-300'>Syarat & Ketentuan</a>
+              <p className='mx-2 md:block'>|</p>
+              <a href='#' className='text-gray-400 text-center hover:text-gray-500 transition duration-300'>Pusat Bantuan</a>
             </div>
 
             {/* Sosial Media */}
-            <div className='my-5 flex px-10 items-center justify-between'>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+            <div className='my-5 flex md:px-10 items-center justify-between gap-1'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490635/icon-socmed-fb_b0cjri.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490879/icon-socmed-twitter_rrsbwa.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490881/icon-socmed-instagram_nzawve.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490883/icon-socmed-youtube_xciu0p.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490886/icon-socmed-tiktok_lilgp9.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490887/icon-linkedin_uoqogs.svg' />
               </a>
-              <a href='#' className='bg-gray-300 w-8 h-8 rounded-2xl flex flex-col items-center justify-center p-2'>
+              <a href='#' className='bg-gray-300 md:w-8 md:h-8 rounded-2xl flex flex-col items-center justify-center md:p-2'>
                 <img src='https://res.cloudinary.com/dzrthkexn/image/upload/v1684490900/icon-techinasia_arzpzf.svg' />
               </a>
             </div>
